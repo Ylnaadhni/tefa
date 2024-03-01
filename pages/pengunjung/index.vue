@@ -4,7 +4,7 @@
       <div class="col-lg-12">
         <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
         <div class="my-3">
-          <input type="search" class="fprm-control form-control-lg rounded-5" placeholder="Filter...">
+          <input type="search" class="form-control form-control-lg rounded-5" placeholder="Filter...">
         </div>
         <div class="my-3 text-muted">menampilkan 1 dari 1</div>
         <table class="table">
@@ -22,11 +22,14 @@
               <td>1.</td>
               <td>Yuliana</td>
               <td>Siswa</td>
-              <td>26 Februari 2024, 13 00</td>
+              <td>26 Februari 2024, 13:00</td>
               <td>Baca</td>
             </tr>
           </tbody>
         </table>
+        <nuxt-link to="../pengunjung/tambah">
+          <button type="submit" class="btn btn-secondary btn-lg rounded-5 px-5" style="margin-left: 90.5%;">KEMBALI</button>
+        </nuxt-link>
       </div>
     </div>
   </div>

@@ -1,27 +1,52 @@
 <template>
   <div class="container-fluid">
-    <div class="row my-5">
-      <div class="col-lg-6">
+    <div class="row my-5 justify-content-around">
+      <div class="col-lg-5">
         <nuxt-link to="/pengunjung/tambah">
           <div class="card bg-pengunjung rounded-5">
             <div class="card-body">
-              <h2>Pengunjung</h2>
+              <h2 style="font-family: ;">Pengunjung</h2>
             </div>
           </div>
         </nuxt-link>
       </div>
-  
-      <div class="col-lg-6">
+      <div class="col-lg-5">
         <nuxt-link to="/buku">
           <div class="card bg-buku rounded-5">
             <div class="card-body">
-              <h2>Cari Buku</h2>
+              <h2 style="font-family: ;">Cari Buku</h2>
             </div>
           </div>
         </nuxt-link>
       </div>
+      </div>
 
-    </div>
+    <h2 class="mt-5" style="font-family: ; margin-left: 150px;">STATISTIK</h2>
+
+    <div class="row my-5 justify-content-around">
+      <div class="col-lg-5">
+        <div class="card bg-spengunjung rounded-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col p-5"><h1 style="font-size: 120px; margin-right: 200px">4</h1></div>
+              <div class="col mt-5 p-5"><h2 style="font-family: ;">Pengunjung</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="col-lg-5">
+        <div class="card bg-sbuku rounded-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col p-5"><h1 style="font-size: 120px; margin-right: 200px;">50</h1></div>
+              <div class="col mt-5 p-5"><h2 style="font-family: ;">Buku</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
   </div>
 </template>
 
@@ -35,11 +60,27 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  opacity: 60%;
 }
 .card.bg-buku {
   background-image: url('../assets/img/bg-home-cari-buku.jpg') ;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  opacity: 60%;
+}
+.card.bg-spengunjung {
+  background-color: #ECEE7F;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 60%;
+}
+.card.bg-sbuku {
+  background-color: #A8FFEF;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 60%;
 }
 </style>
