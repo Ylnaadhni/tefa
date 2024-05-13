@@ -6,11 +6,14 @@
       <img :src="buku.cover" class="cover" alt="cover buku" style="height: 400px;">
     </div>
     <div class="col-md-6">
-      <div class="badge bg-primary p-2">{{  buku.kategori }}</div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Penulis: {{  buku.penulis }}</li>
       <li class="list-group-item">Tahun Terbit: {{  buku.tahunterbit }}</li>
       <li class="lis-group-item">{{  buku.deskripsi }}</li>
+      <li class="list-group-item">
+        <span v-if="buku.kategori"> kategori : {{  buku.kategori.nama }}</span>
+        <span v-else>loading...</span>
+      </li>
     </ul>
     </div>
   </div>
