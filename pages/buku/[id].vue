@@ -8,7 +8,8 @@
     <div class="col-md-6">
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Penulis: {{  buku.penulis }}</li>
-      <li class="list-group-item">Tahun Terbit: {{  buku.tahunterbit }}</li>
+      <li class="list-group-item">Penerbit : {{  buku.penerbit }}</li>
+      <li class="list-group-item">Tahun Terbit: {{  buku.tahun_terbit }}</li>
       <li class="lis-group-item">{{  buku.deskripsi }}</li>
       <li class="list-group-item">
         <span v-if="buku.kategori"> kategori : {{  buku.kategori.nama }}</span>
@@ -29,14 +30,14 @@ const supabase = useSupabaseClient()
 const route = useRoute()
 const buku = ref([])
 
-const getBookById = async () => {
+const getBooksById = async () => {
   const { data, error } = await supabase.from('buku').select('*, kategori(*)')
   .eq('id', route.params.id)
   if(data) buku.value = data[0]
 }
 
 onMounted(() => {
-  getBookById()
+  getBooksById()
 })
 
 </script>

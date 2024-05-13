@@ -7,7 +7,7 @@
             <input v-model="keyword" type="search" class="form-control rounded-5" placeholder="Mau baca apa hari ini?">
           </form>
         </div>
-        <div class="my-3 text-muted">Menampilkan 4 dari 4</div>
+        <div class="my-3 text-muted">Menampilkan 5 dari 5</div>
         <div class="row">
           <div v-for="(book, i) in books" :key="i" class="col-lg-2">
             <div class="card mb-3">
