@@ -13,7 +13,7 @@
 
       <div class="col-lg-5">
         <nuxt-link to="/buku">
-          <div class="card bg-buku rounded-2">
+          <div class="card bg-buku rounded-5">
             <div class="card-body">
               <h2 style="font-family: ">Cari Buku</h2>
             </div>
