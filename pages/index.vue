@@ -55,6 +55,9 @@
 </template>
 
 <script setup>
+useHead({title: 'perpus digital yuliana',
+meta:[{name: 'description', content:'selamat datang di aplikasi perpus digital smkn4 tsm'}]
+})
 
 const supabase = useSupabaseClient();
 const jumlahp = ref(0);

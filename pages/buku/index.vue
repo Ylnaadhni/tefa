@@ -28,6 +28,9 @@
 </template>
 
 <script setup>
+useHead({title: 'perpus digital yuliana',
+meta:[{name: 'description', content:'aplikasi kunjungan dan pencarian buku perpus SMKN 4 tsm'}]
+})
 const supabase = useSupabaseClient()
 
 const books = ref([])

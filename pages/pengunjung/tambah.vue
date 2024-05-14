@@ -44,6 +44,9 @@
 </template>
 
 <script setup>
+useHead({title: 'perpus digital yuliana',
+meta:[{name: 'description', content:'menampilkan nama'}]
+})
 const supabase = useSupabaseClient()
 
 const members = ref([])

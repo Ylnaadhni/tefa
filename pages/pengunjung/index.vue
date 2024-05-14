@@ -38,6 +38,9 @@
 </template>
 
 <script setup>
+useHead({title: 'perpus digital yuliana',
+meta:[{name: 'description', content:'selamat mengisi biodata'}]
+})
 const supabase = useSupabaseClient()
 const keyword = ref('')
 const visitors = ref([])
