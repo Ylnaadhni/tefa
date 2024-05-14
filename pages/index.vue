@@ -3,7 +3,7 @@
     <div class="row my-5 justify-content-around">
       <div class="col-lg-5">
         <nuxt-link to="/pengunjung/tambah">
-          <div class="card bg-pengunjung rounded-3">
+          <div class="card bg-pengunjung rounded-2">
             <div class="card-body">
               <h2 style="font-family: ">Pengunjung</h2>
             </div>
@@ -100,7 +100,7 @@ onMounted(() => {
   opacity: 60%;
 }
 .card.bg-spengunjung {
-  background-color: #ecee7f;
+  background-color: #eaed3f;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
