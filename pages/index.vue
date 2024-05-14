@@ -3,7 +3,7 @@
     <div class="row my-5 justify-content-around">
       <div class="col-lg-5">
         <nuxt-link to="/pengunjung/tambah">
-          <div class="card bg-pengunjung rounded-5">
+          <div class="card bg-pengunjung rounded-2">
             <div class="card-body">
               <h2 style="font-family: ">Pengunjung</h2>
             </div>
@@ -13,7 +13,7 @@
 
       <div class="col-lg-5">
         <nuxt-link to="/buku">
-          <div class="card bg-buku rounded-5">
+          <div class="card bg-buku rounded-2">
             <div class="card-body">
               <h2 style="font-family: ">Cari Buku</h2>
             </div>
