@@ -24,7 +24,10 @@
 </div>
 </template>
 
-<script setup> 
+<script setup>
+useHead({title: 'perpus digital yuliana',
+meta:[{name: 'description', content:'rincian buku'}]
+})
 const supabase = useSupabaseClient()
 
 const route = useRoute()
