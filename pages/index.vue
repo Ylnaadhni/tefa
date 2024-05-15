@@ -3,7 +3,7 @@
     <div class="row my-5 justify-content-around">
       <div class="col-lg-5">
         <nuxt-link to="/pengunjung/tambah">
-          <div class="card bg-pengunjung rounded-3">
+          <div class="card bg-pengunjung rounded-5">
             <div class="card-body">
               <h2 style="font-family: ">Pengunjung</h2>
             </div>
@@ -13,7 +13,7 @@
 
       <div class="col-lg-5">
         <nuxt-link to="/buku">
-          <div class="card bg-buku rounded-3">
+          <div class="card bg-buku rounded-5">
             <div class="card-body">
               <h2 style="font-family: ">Cari Buku</h2>
             </div>
@@ -25,7 +25,7 @@
     <h2 class="mt-5" style="margin-left: 150px;">STATISTIK</h2>
     <div class="row my-5 justify-content-around">
       <div class="col-lg-5">
-        <div class="card bg-spengunjung rounded-3">
+        <div class="card bg-spengunjung rounded-5">
           <div class="card-body">
               <nuxt-link to="/pengunjung">
                 <div class="row">
@@ -38,7 +38,7 @@
         </div>
 
       <div class="col-lg-5">
-        <div class="card bg-sbuku rounded-3">
+        <div class="card bg-sbuku rounded-5">
           <div class="card-body">
             <nuxt-link to="./buku">
               <div class="row">
